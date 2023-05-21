@@ -61,6 +61,7 @@ public class PalmBus extends BaseClass {
         Assert.assertEquals(expectedSaveText, actualSaveText);
         driver.findElementById("com.is.android.cannes:id/buttonValid").click();
 
+
         //L'utilisateur peut supprimer avec succès une adresse favorite.
         driver.findElementById("com.is.android.cannes:id/menu").click();
 
